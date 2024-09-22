@@ -8,6 +8,6 @@ class Student(User):
         super().__init__(first_name, last_name)
         self.knowledge = []
 
-    def learn(self, info):
+    def learn(self, info):  
         self.knowledge.append(info)
   
